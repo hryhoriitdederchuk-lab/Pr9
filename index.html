@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List - Картки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Список завдань</h1>
+        
+        <form id="task-form">
+            <input type="text" id="task-name" placeholder="Назва завдання" required>
+            <select id="task-category">
+                <option value="Навчання">Навчання</option>
+                <option value="Особисте">Особисте</option>
+                <option value="Робота">Робота</option>
+            </select>
+            <button type="submit">Додати</button>
+        </form>
+
+        <div id="tasks-container">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
